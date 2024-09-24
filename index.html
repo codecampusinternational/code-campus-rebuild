@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Campus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style/Style.css">
+    <style>
+        body {
+            padding-top: 56px; /* Space for fixed navbar */
+        }
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+        .dropdown-menu {
+            margin-top: 0; /* Align dropdown with the parent */
+        }
+        .navbar-nav {
+            margin-left: auto; /* Align dropdowns to the right */
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <nav class="navbar">
+            <h2>Code Campus</h2>
+            <ul class="dropdown">
+                <li class="drop-items">
+                    <a href="#">Bootcamps</a>
+                    <div class="drop-content">
+                        <a href="">Software Engineering</a>
+                        <a href="#">Cybersecurity</a>
+                        <a href="#">Cloud Engineering</a>
+                        <a href="#">Data Analytics</a>
+                        <a href="#">Digital Marketing</a>
+                    </div>
+                </li>
+
+                <li class="drop-items">
+                    <a href="">Why Us</a>
+
+                    <div class="drop-content">
+                        <a href="#">About CodeCampus</a>
+                        <a href="#">Success Stories</a>
+                        <a href="#">Our Tutors</a>
+                    </div>
+                </li>
+
+                <li class="drop-items">
+                    <a href="#">Admissions</a>
+                    <div class="drop-content">
+                        <a href="#">How to Apply</a>
+                        <a href="#">Tuition</a>
+                        <a href="#">Scholarships</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="request "><a href="#">Request Info</a></div>
+            <div class="location drop-items">
+                <a href="#">Regions</a>
+                <div class="location-items drop-content">
+                    <a href="#">Abuja</a>
+                    <a href="#">Lagos</a>
+                    <a href="#">New York</a>
+                    <a href="#">Uk</a>
+                    <a href="#">London</a>
+                </div>
+            </div>
+
+    </nav>
+
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Your exciting career in tech starts here.</h1>
+            <p>Learn software engineering, full-stack web development or data science <strong>online</strong>.</p>
+            <p>Experience <strong> human code review</strong> and learning feedback like never before. </p>
+            <div class="cta">
+                <button>Enrol Now</button>
+            </div>
+
+        </div>
+        <img src="./image/learning-hero.png" alt="">
+    </div>
+
+    <div class="our-service">
+        <div class="service-header">
+            <h2>Join the course adapted to your needs </h2>
+
+            <p>Whether you want to learn fundamental skills, boost your career with an international certification, or change your career, we have the right program for you.</p>
+        </div>
+            <div class="service-nav">
+                <div class="active"   onclick="web1()"><i class="fa-solid fa-code" ></i>Web</div>
+                <div class="nav-link" onclick ="web2()"><i class="fa-solid fa-database"></i>Data Analytics</div>
+                <div class="nav-link" onclick ="web3()"><i class="fa-solid fa-cloud"></i>Cloud Engineering</div>
+                <div class="nav-link" onclick ="web4()"><i class="fa-solid fa-database"></i>Digital Marketing</div>
+                <div class="nav-link" onclick ="we5()"><i class="fa-solid fa-pen-nib"></i>Designs</div>
+            </div>
+            <div class="course-card">
+                <div class="web active" id="web1">
+                    <div class="course-item" >
+
+                        <img src="./image/img2.jpg" alt="">
+                        <div class="button-overlay">Career Change</div>
+                        <h2><a href="">Software Developer Bootcamp</a></h2>
+                        <p>A tailored 24-week bootcamp, perfect for tech newcomers or those with minimal programming experience who want to transform their career.</p>
+                        <button>Learn more</button>
+                    </div>
+                    <div class="course-item">
+                        <img src="./image/img5.jpg" alt="">
+                        <div class="button-overlay">Introduction</div>
+                        <h2><a href="">Introduction To Web Programming</a></h2>
+                        <p>A beginner-friendly training, tailored to help you build your first website with hands-on learning and expert guidance</p>
+                        <button>Learn more</button>
+                    </div>
+                    <div class="course-item">
+                        <img src="./image/img2.jpg" alt="">
+                        <div class="button-overlay">advanced </div>
+                        <h2><a href="">Front End Developer-React JS</a></h2>
+                        <p>Dive into React JS mastery in our advanced course for developers with basic front-end skills.</p>
+                        <button>Learn more</button>
+                    </div>
+
+                    <div class="course-item">
+                        <img src="./image/img2.jpg" alt="">
+                        <div class="button-overlay">advanced </div>
+                        <h2><a href="">Cybersecurity- CompTia Security+Certified</a></h2>
+                        <p>Enroll in our cybersecurity training to gain in-depth knowledge and prepare for the CompTIA Security+ certification.</p>
+                        <button>Learn more</button>
+                    </div>
+                    <div class="course-item">
+                        <img src="./image/img2.jpg" alt="">
+                        <div class="button-overlay">advanced</div>
+                        <h2><a href="">Software Testing-ISTQB Certified</a></h2>
+                        <p>Get ISTQB-certified with our hands-on Software Testing training. Achieve formal recognition and comprehensive expertise.</p>
+                        <button>Learn more</button>
+                    </div>
+                </div>
+                <div class="web" id="web2">
+                    <div class="course-item">
+
+                        <img src="./image/img2.jpg" alt="">
+                        <div class="button-overlay">Career change </div>
+                        <h2><a href="">Data Scientist Bootcamps</a></h2>
+                        <p>A tailored 24-week bootcamp, perfect for tech newcomers or those with minimal programming experience who want to transform their career.</p>
+                        <button>Learn more</button>
+                    </div>
+                    <div class="course-item">
+                        <img src="./image/img2.jpg" alt="">
+                        <div class="button-overlay">Introduction </div>
+                        <h2><a href="">Introduction To Python</a></h2>
+                        <p>A tailored 24-week bootcamp, perfect for tech newcomers or those with minimal programming experience who want to transform their career.</p>
+                        <button>Learn more</button>
+                    </div>
+                    <div class="course-item">
+                        <img src="./image/img5.jpg" alt="">
+                        <div class="button-overlay">advanced </div>
+                        <h2><a href="">Data Analytics-Microsoft Power Bi Certified</a></h2>
+                        <p>Excel in data analytics with our Power BI Data Analyst training, ideal for professionals seeking Microsoft Power BI certification.</p>
+                        <button>Learn more</button>
+                    </div>
+                    <div class="course-item">
+                        <img src="./image/img2.jpg" alt="">
+                        <div class="button-overlay">Introduction </div>
+                        <h2><a href="">Generative Ai Courses</a></h2>
+                        <p>Learn generative AI for your life or business. In 3 months, get hands-on with AI tools and practical applications.</p>
+
+                        <button>Learn more </button>
+                    </div>
+                </div>
+                <div class="web" id="web3">
+                    <div class="course-item">
+                        <img src="./image/img2.jpg" alt="">
+                        <div class="button-overlay">Introduction </div>
+                        <h2><a href="">Introduction To Social Media</a></h2>
+                        <p>Start your digital marketing journey with our social media course. Gain essential skills through hands-on learning and guidance from instructors.</p>
+                        <button>Learn more</button>
+                    </div>
+                    <div class="course-item">
+                        <img src="./image/img2.jpg" alt="">
+                        <div class="button-overlay">advanced </div>
+                        <h2><a href="">Performance Marketing-Meta Certified</a></h2>
+                        <p>Elevate your Meta platform marketing with our certified course. Learn effective strategies for measurable results.</p>
+                        <button>Learn more</button>
+                    </div>
+                
+                </div>
+                <div class="web" id="web4">
+                    <div class="course-item">
+
+                        <img src="./image/img2.jpg" alt="">
+                        <div class="button-overlay">advanced </div>
+                        <h2><a href="">UI/UX Designs</a></h2>
+                        <p>Deepen your UX and UI skills with our advanced training. Elevate your proficiency for seamless digital experiences!</p>
+                        <button>Learn more</button>
+                    </div>
+                    <div class="course-item">
+                        <img src="./image/img2.jpg" alt="">
+                        <div class="button-overlay">advanced </div>
+                        <h2><a href="">Graphic Designs - Adobe Certified</a></h2>
+                        <p>A tailored 24-week bootcamp, perfect for tech newcomers or those with minimal programming experience who want to transform their career.</p>
+                        <button>Learn more</button>
+                    </div>
+                
+                </div>
+                <div class="web" id="web5">
+                    <div class="course-item">
+
+                        <img src="./image/img2.jpg" alt="">
+                        <div class="button-overlay">advanced </div>
+                        <h2><a href="">UI/UX Designs</a></h2>
+                        <p>Deepen your UX and UI skills with our advanced training. Elevate your proficiency for seamless digital experiences!</p>
+                        <button>Learn more</button>
+                    </div>
+                    <div class="course-item">
+                        <img src="./image/img2.jpg" alt="">
+                        <div class="button-overlay">advanced </div>
+                        <h2><a href="">Graphic Designs - Adobe Certified</a></h2>
+                        <p>A tailored 24-week bootcamp, perfect for tech newcomers or those with minimal programming experience who want to transform their career.</p>
+                        <button>Learn more</button>
+                    </div>
+                
+                </div>
+            
+            </div>
+    </div>
+
+
+
+    <div class="course-timing">
+        <ul class="timing">
+            <li onclick="bootCamps()">Bootcamps</li> 
+            <li onclick="shortCourse()">Short Courses</li>
+            
+        </ul>
+        <h2>Flexible offerings designed to get you hired.</h2>
+
+
+                                    <!-- ShortCourse -->
+
+
+        <div class="course-display" id="bootCamps">
+
+            <div class="course-period">
+                <img src="./image/img3.jpg" alt="">
+                
+                <h2><a href="">Data Analytics Bootcamps</a></h2>
+                
+            </div>
+            <div class="course-period">
+                <img src="./image/course7.jpg" alt="">
+                
+                <h2><a href="">Data Analytics Bootcamps Part-Time</a></h2>
+
+                
+            </div>
+            <div class="course-period">
+                <img src="./image/course2.jpg" alt="">
+                
+                <h2><a href="">Software Engineering Bootcamps</a></h2>
+                
+            </div>
+            <div class="course-period ">
+                <img src="./image/course3.jpg" alt="">
+                
+                <h2><a href="">Software Engineering Bootcamps Part-Time</h2>
+                
+            </div>
+            <div class="course-period">
+                <img src="./image/course4.jpg" alt="">
+                
+                <h2><a href="">User Experience (UX)</a></h2>
+                
+            </div>
+            <div class="course-period">
+                <img src="./image/img3.jpg" alt="">
+                
+                <h2><a href="">User Experience (UX) Part-Time</a></h2>
+                
+            </div>
+            <div class="course-period">
+                <img src="./image/course5.jpg" alt="">
+                
+                <h2><a href="">Data Science Bootcamps</a></h2>
+                
+            </div>
+        </div>
+
+                                        <!-- ShortCourse -->
+                                        
+        <div class="course-display" id="short-course">
+            <div class="course-period">
+                <img src="./image/course1.jpg" alt="">
+                
+                <h2><a href="">Data Analytics</a></h2>
+                
+            </div>
+            <div class="course-period">
+                <img src="./image/course7.jpg" alt="">
+                
+                <h2><a href="">Front-End Web development</a></h2>
+
+                
+            </div>
+            <div class="course-period">
+                <img src="./image/course2.jpg" alt="">
+                
+                <h2><a href="">Javascript development</a></h2>
+                
+            </div>
+            <div class="course-period">
+                <img src="./image/course3.jpg" alt="">
+                
+                <h2><a href="">Python Programming</h2>
+                
+            </div>
+            <div class="course-period">
+                <img src="./image/course4.jpg" alt="">
+                
+                <h2><a href="">React development</a></h2>
+                
+            </div>
+            <div class="course-period">
+                <img src="./image/course5.jpg" alt="">
+                
+                <h2><a href="">User Experience (UX) </a></h2>
+                
+            </div>
+            <div class="course-period">
+                <img src="./image/course5.jpg" alt="">
+                
+                <h2><a href="">Data Science Bootcamps</a></h2>
+                
+            </div>
+        </div>
+    </div>
+
+<script src="./script/script.js"></script>
+</body>
+</html>

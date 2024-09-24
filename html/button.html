@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial with Button Overlay</title>
+    <style>
+        /* General styling */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        /* Card container */
+        .card {
+            position: relative;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        /* Image styling */
+        .card img {
+            width: 95%;
+            display: block;
+        }
+
+        /* Button (badge) styling */
+        .button-overlay {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background-color: #4CAF50; /* Green button */
+            color: white;
+            padding: 10px 15px;
+            font-size: 0.9rem;
+            border-radius: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* Card content */
+        .card-content {
+            padding: 20px;
+            background-color: white;
+        }
+
+        .card-content h3 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        .card-content p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <!-- Image -->
+        <img src="../image/img2.jpg" alt="Testimonial Image">
+        
+        <!-- Button overlay -->
+        <div class="button-overlay">Career Change</div>
+        
+        <!-- Card content -->
+        <div class="card-content">
+            <h3>Software Developer Bootcamp</h3>
+            <p>A tailored 24-week bootcamp, perfect for newcomers or those with minimal programming experience.</p>
+        </div>
+    </div>
+</body>
+</html>
