@@ -16,7 +16,9 @@
  }
 
 
-
+.flex11{
+    text-align: center;
+}
  .navbar {
      display: flex;
      justify-content: space-evenly;
