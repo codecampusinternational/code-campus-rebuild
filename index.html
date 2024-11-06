@@ -11,7 +11,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./style/Style.css">
-  
+    <style>
+        body {
+            padding-top: 56px; /* Space for fixed navbar */
+        }
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+        .dropdown-menu {
+            margin-top: 0; /* Align dropdown with the parent */
+        }
+        .navbar-nav {
+            margin-left: auto; /* Align dropdowns to the right */
+        }
+    </style>
 </head>
 <body>
 
@@ -25,7 +38,9 @@
                     <div class="drop-content">
                         <a href="">Software Engineering</a>
                         <a href="#">Cybersecurity</a>
-                       
+                        <a href="#">Cloud Engineering</a>
+                        <a href="#">Data Analytics</a>
+                        <a href="#">Digital Marketing</a>
                     </div>
                 </li>
 
@@ -33,7 +48,7 @@
                     <a href="">Why Us</a>
 
                     <div class="drop-content">
-                        <a href="#">About </a>
+                        <a href="#">About CodeCampus</a>
                         <a href="#">Success Stories</a>
                         <a href="#">Our Tutors</a>
                     </div>
@@ -52,6 +67,7 @@
             <div class="location drop-items">
                 <a href="#">Regions</a>
                 <div class="location-items drop-content">
+                  
                     <a href="#">Abuja</a>
                     <a href="#">Lagos</a>
                     <a href="#">New York</a>
