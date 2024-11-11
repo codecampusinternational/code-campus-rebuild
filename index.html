@@ -11,20 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./style/Style.css">
-    <style>
-        body {
-            padding-top: 56px; /* Space for fixed navbar */
-        }
-        .dropdown:hover .dropdown-menu {
-            display: block;
-        }
-        .dropdown-menu {
-            margin-top: 0; /* Align dropdown with the parent */
-        }
-        .navbar-nav {
-            margin-left: auto; /* Align dropdowns to the right */
-        }
-    </style>
+    
 </head>
 <body>
 
@@ -32,7 +19,11 @@
 
     <nav class="navbar">
             <h2>Code Campus</h2>
-            <ul class="dropdown">
+            <div class="mobile">
+                <div class="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <ul class="dropdown">
                 <li class="drop-items">
                     <a href="#">Bootcamps</a>
                     <div class="drop-content">
@@ -74,6 +65,7 @@
                     <a href="#">Uk</a>
                     <a href="#">London</a>
                 </div>
+            </div>
             </div>
 
     </nav>
